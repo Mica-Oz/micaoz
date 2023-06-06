@@ -1,6 +1,8 @@
+/* eslint-disable react/jsx-no-comment-textnodes */
 
 import React, { useEffect, useRef } from 'react';
-import lottie from 'lottie-web'
+import lottie from 'lottie-web';
+import './underConstruction.css';
 
 function App() {
 
@@ -17,14 +19,16 @@ function App() {
   }, [])
 
   return (
+    <div className='flex'>
     <div className="App">
-     <p>
-       THIS SITE IS
+     <p className='text'>
+       THIS SITE IS IN
      </p>
-     <p>
-        UNDER DEVELOPMENT
+     <p className='text2'>
+         DEVELOPMENT
      </p> 
      <div className="container" ref={container}></div>
+    </div>
     </div>
   );
 }
