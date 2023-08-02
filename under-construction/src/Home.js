@@ -14,9 +14,7 @@ function Home() {
         </div>
         <div id="Row2">
           <div id="Block3">3</div>
-          <div id="Block4">
-            <img src="torus.png" alt="4"></img>
-          </div>
+          <div id="Block4"></div>
           <div id="Block5">5</div>
         </div>
         <div id="Row3">

@@ -30,11 +30,14 @@
 }
 #Block4 {
   width: 25vw;
-  background-color: #ffffff;
+  background-image: url("./torus.png");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 #Block5 {
   width: 47vw;
-  background-color: #ffaee9;
+  background-image: url("./check.png");
+  background-repeat: no-repeat;
 }
 
 #Row3 {
