@@ -3,13 +3,14 @@
 import React, { useEffect, useRef } from "react";
 
 import "./home.css";
+import Block1 from "./Block1.js";
 
 function Home() {
   return (
     <div className="flex">
       <div className="App">
         <div id="Row1">
-          <div id="Block1">1</div>
+          <Block1 id="Block1" />
           <div id="Block2">2</div>
         </div>
         <div id="Row2">
