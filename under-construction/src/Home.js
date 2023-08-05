@@ -4,6 +4,7 @@ import React, { useEffect, useRef } from "react";
 
 import "./home.css";
 import Block1 from "./Block1.js";
+import Block2 from "./Block2.js";
 
 function Home() {
   return (
@@ -11,7 +12,7 @@ function Home() {
       <div className="App">
         <div id="Row1">
           <Block1 id="Block1" />
-          <div id="Block2">2</div>
+          <Block2 id="Block1" />
         </div>
         <div id="Row2">
           <div id="Block3">3</div>
