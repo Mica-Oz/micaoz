@@ -15,7 +15,9 @@ function Home() {
           <Block2 id="Block1" />
         </div>
         <div id="Row2">
-          <div id="Block3">3</div>
+          <div id="Block3">
+            {/* this div will have a custom frame by frame animation appear on hover */}
+          </div>
           <div id="Block4"></div>
           <div id="Block5">5</div>
         </div>

@@ -25,11 +25,11 @@
 }
 
 .icon {
-  background-color: aqua;
+  display: flex;
   height: 3rem;
   width: 3rem;
 }
-#igicon {
+.svg {
   height: 100%;
   width: 100%;
 }
