@@ -9,6 +9,7 @@ import Block4 from "./Block4.js";
 import Block6 from "./Block6.js";
 import Block7 from "./Block7.js";
 import Block8 from "./Block8.js";
+import Block13 from "./Block13.js";
 
 function Home() {
   return (
@@ -34,15 +35,17 @@ function Home() {
               <Block7 id="Block7" />
             </div>
             <div id="LHunkRow2">
-              <div id="Block10">10</div>
-              <div id="Block11">11</div>
+              <div id="Block10"></div>
+              <div id="Block11"></div>
             </div>
-            <div id="Block12">12</div>
+            <div id="Block12"></div>
           </div>
           <Block8 id="Block8" />
           <div id="RightHunk">
-            <div id="Block9">9</div>
-            <div id="Block13">13</div>
+            <div id="Block9"></div>
+            <div id="Block13">
+              <Block13 />
+            </div>
           </div>
         </div>
       </div>

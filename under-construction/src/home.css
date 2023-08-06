@@ -102,4 +102,7 @@
 #Block13 {
   background-color: #ffaee9;
   height: 19%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
