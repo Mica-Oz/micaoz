@@ -5,4 +5,5 @@
 }
 #player {
   /* width: 150%; */
+  transform: translate(-20rem -20rem);
 }

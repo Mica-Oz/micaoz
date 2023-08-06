@@ -6,7 +6,9 @@ import "./home.css";
 import Block1 from "./Block1.js";
 import Block2 from "./Block2.js";
 import Block4 from "./Block4.js";
-// import Block6 from "./Block6.js";
+import Block6 from "./Block6.js";
+import Block7 from "./Block7.js";
+import Block8 from "./Block8.js";
 
 function Home() {
   return (
@@ -28,8 +30,8 @@ function Home() {
         <div id="Row3">
           <div id="LeftHunk">
             <div id="LHunkRow1">
-              <div id="Block6" />
-              <div id="Block7">7</div>
+              <Block6 id="Block6" />
+              <Block7 id="Block7" />
             </div>
             <div id="LHunkRow2">
               <div id="Block10">10</div>
@@ -37,7 +39,7 @@ function Home() {
             </div>
             <div id="Block12">12</div>
           </div>
-          <div id="Block8">8</div>
+          <Block8 id="Block8" />
           <div id="RightHunk">
             <div id="Block9">9</div>
             <div id="Block13">13</div>
