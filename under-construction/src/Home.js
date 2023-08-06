@@ -6,6 +6,7 @@ import "./home.css";
 import Block1 from "./Block1.js";
 import Block2 from "./Block2.js";
 import Block4 from "./Block4.js";
+// import Block6 from "./Block6.js";
 
 function Home() {
   return (
@@ -20,12 +21,14 @@ function Home() {
             {/* this div will have a custom frame by frame animation appear on hover */}
           </div>
           <Block4 id="Block4" />
-          <div id="Block5">5</div>
+          <div id="Block5">
+            {/* this div will have color changing onClick functionality and one square will have an easter egg */}
+          </div>
         </div>
         <div id="Row3">
           <div id="LeftHunk">
             <div id="LHunkRow1">
-              <div id="Block6">6</div>
+              <div id="Block6" />
               <div id="Block7">7</div>
             </div>
             <div id="LHunkRow2">

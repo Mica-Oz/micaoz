@@ -9,8 +9,8 @@ function Block4() {
       <ReactPlayer
         id="player"
         url="https://vimeo.com/196005286"
-        width="130%"
-        height="130%"
+        // width="120%"
+        // height="120%"
         // controls={false}
         muted={true}
         autoplay={true}

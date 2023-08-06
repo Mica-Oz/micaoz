@@ -11,10 +11,10 @@
   height: 26vh;
 }
 #Block1 {
-  width: 65vw;
+  width: 55vw;
 }
 #Block2 {
-  width: 35vw;
+  width: 45vw;
 }
 
 #Row2 {
@@ -28,9 +28,6 @@
 }
 #Block4 {
   width: 25vw;
-  background-image: url("./torus.png");
-  background-size: cover;
-  background-repeat: no-repeat;
 }
 #Block5 {
   width: 47vw;
