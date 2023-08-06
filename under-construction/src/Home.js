@@ -5,6 +5,7 @@ import React, { useEffect, useRef } from "react";
 import "./home.css";
 import Block1 from "./Block1.js";
 import Block2 from "./Block2.js";
+import Block4 from "./Block4.js";
 
 function Home() {
   return (
@@ -18,7 +19,7 @@ function Home() {
           <div id="Block3">
             {/* this div will have a custom frame by frame animation appear on hover */}
           </div>
-          <div id="Block4"></div>
+          <Block4 id="Block4" />
           <div id="Block5">5</div>
         </div>
         <div id="Row3">
