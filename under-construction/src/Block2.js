@@ -3,7 +3,7 @@ import React, { useEffect, useRef } from "react";
 import "./Block2.css";
 import igicon from "./instagram.svg";
 import liicon from "./linkedin.svg";
-import eicon from "./mail.svg";
+import giticon from "./github.svg";
 import vicon from "./vimeo.svg";
 import yticon from "./youtube.svg";
 
@@ -23,12 +23,8 @@ function Block2() {
           <img classname="svg" alt="ig" src={liicon} />
         </a>
 
-        <a
-          className="icon"
-          id="newsletter"
-          href="https://www.instagram.com/mica.oz"
-        >
-          <img alt="NL" src={eicon}></img>
+        <a className="icon" id="github" href="https://github.com/Mica-Oz">
+          <img alt="NL" src={giticon}></img>
         </a>
       </div>
 
